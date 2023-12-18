@@ -1,0 +1,134 @@
+:root {
+  --purple: #610154;
+  --maroon: #f1a500;
+  --red: #ffd700;
+  --pink: #ff1878;
+  --black: #034dec;
+  --blue: #000980;
+}
+body,
+h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.landing {
+  background-image: url("images/toys.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: pa;
+}
+header a {
+  text-decoration: none;
+  color: var(--pink);
+  padding: 1em;
+}
+header {
+  display: flex;
+}
+#logo {
+  flex: 3;
+  font-size: 1.3em;
+  color: var(--pink);
+}
+nav {
+  flex: 1;
+  font-size: 1.5em;
+}
+nav a {
+  flex: 1;
+}
+nav a:hover {
+  color: var(--blue);
+}
+header h2 i,
+nav a i {
+  margin-right: 0.3em;
+}
+.kids {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  padding: 2em;
+}
+.tagline1 {
+  color: var(--red);
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.tagline2 {
+  color: var(--black);
+  font-size: 1.5em;
+}
+.kids div {
+  margin-top: 1.75em;
+}
+.callus {
+  color: whitesmoke;
+}
+.kids button {
+  width: 20vw;
+  margin-top: 2em;
+  border-radius: 10px;
+  padding: 1.5em;
+  background-color: brown;
+  color: whitesmoke;
+  border: 1px solid brown;
+  color: whitesmoke;
+}
+#Menuheading,
+#locations {
+  background: linear-gradient(to right, rgb(1, 65, 1), rgb(172, 194, 157));
+  font-size: 2em;
+  color: maroon;
+  display: flex;
+  justify-content: center;
+}
+.Menu {
+  display: grid;
+  background: linear-gradient(to right, rgb(1, 65, 1), rgb(172, 194, 157));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  color: whitesmoke;
+}
+.Menu th {
+  font-size: 1.3em;
+  color: black;
+}
+table {
+  width: 50%;
+  padding: 1em;
+}
+.Menu tr {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8em;
+}
+.Menu td:nth-child(1) {
+  flex: 1;
+  justify-self: left;
+}
+.Menu td:nth-child(2) {
+  justify-self: right;
+}
+.Locations {
+  background: linear-gradient(to right, rgb(1, 65, 1), rgb(172, 194, 157));
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Locations h2 {
+  color: darkturquoise;
+  margin-bottom: 0.8em;
+  font-size: 1.2em;
+}
+.Locations div {
+  flex: 1;
+  padding: 1em;
+  min-width: 200px;
+}
+footer {
+  background: linear-gradient(to right, rgb(1, 65, 1), rgb(172, 194, 157));
+  color: whitesmoke;
+  padding: 0.25em 1em;
+}
